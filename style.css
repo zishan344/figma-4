@@ -1,0 +1,180 @@
+*{box-sizing: border-box;margin: 0;padding: 0;list-style:none;font-family: 'Poppins', sans-serif; }
+
+
+input:focus {
+    outline: none !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* this is a header */
+header{ 
+    background: linear-gradient(105deg, rgba(255,205,159,1) 22%, rgba(255,255,255,1) 100%, rgba(255,205,159,1) 100%);}
+     
+    /* thsi is a headre child nav */
+      
+    .container{
+}
+    .main-nav{display: flex;justify-content: space-between;}
+     
+    /* this is a nav childe logo */
+    .logo img{margin-top:40px;}
+
+    /* this is a nav child two full nav */
+    .child-nav{margin-top:50px;}
+    .child-nav ul{display: flex;gap: 20px;}
+    .child-nav a{text-decoration:none;color: black;font-weight: 500;font-size: 1.2rem;}
+
+    /* thi is header content */
+   
+     .container{}
+     .mod{}
+     
+     #how{}
+     /* this is header content left side */
+         .left-side{ }
+         .left-side h1{margin-top: 100px;font-weight: bold;font-size: 5rem;}
+         .left-side h2{
+            color: #F78431;
+            font-size: 2.7rem;
+            font-weight: 600;
+            font-size: 5rem;
+            }
+         .left-side p{margin-top: 30px;width:655px;}
+         .left-side input{
+            border: none;
+            border-radius: 30px;
+            width: 604px;
+            padding: 15px;
+            margin-top: 80px;
+            }
+       .input-box{position: absolute;}
+        .header-button{
+         box-shadow: -1px 3px 7px 0px black;
+         position: absolute;
+         width: 167px;
+         right: 7px;
+         border: none;
+         background: #F78431;
+         padding: 7px;
+         border-radius: 20px;
+         font-size: 1.3rem;
+         top: 83px;
+         }
+
+
+
+     /* thi is header content left-side-mini */
+     .mini{
+        position: relative;
+        width: 359px;
+        margin-top: 268px;
+        margin-left: 48px;
+        }
+     .mini-img-one{
+        position: absolute;
+        top: 15px;
+        left: 19px;}
+     .mini-img-two{
+        
+    position: absolute;
+    top: 19px;
+    right: 80px;}
+
+     .mini-img-three{
+        position: absolute;
+        left: 21px;
+        bottom: 24px;}
+
+     .mini-img-four{
+        right: 91px;
+        position: absolute;
+        bottom: 16px;}
+ 
+
+        /* this is section */
+        .sec-one{background: radial-gradient(circle, rgba(255,240,227,1) 46%, rgba(255,205,159,1) 100%, rgba(255,255,255,1) 100%, rgba(255,205,159,1) 100%);}
+        .body-part-one{}
+          
+        .gap {
+         gap: 30px;
+     }
+        .part-top-heading{}
+
+        .part-top-heading h1 {
+         text-align: center;
+         padding-top: 50px;
+         font-weight: 500;
+         font-size: 3rem;
+         margin-bottom: 10px;
+     }
+     .line-create {
+      width: 250px;
+      height: 3px;
+      background-color: #FF7A00;
+      display: inline-block;
+      margin-left: 436px;
+      margin-bottom: 50px;
+       
+  }
+         .part-top{
+            box-shadow: 2px 11px 17px -8px rgba(0,0,0,1);
+            background-color: white;
+            width: 23%;
+            margin-bottom: 200px;}
+            
+         .part-top img{
+            
+   
+            margin-left: 75px;
+            margin-top: 70px;
+            margin-bottom: 58px;}
+
+            .part-top h4{
+               text-align: center;
+               margin-bottom: 65px;}
+
+
+               /* this is 2nd section */
+
+               /* left side */
+               .left-side-child2{}
+               .left-side-child2 h2{color: #F78431;font-size: 2.3rem;}
+               .left-side-child2 p{width: 650px;}
+
+
+               /* this is a footer */
+               .footer-area{background: rgb(255,240,227);}
+               .footer-less{padding-top: 21px;background:#E5E5E5;width: 500px;margin:  auto;}
+               .footer-less h1{font-size: 2.5rem;text-align: center;}
+
+               input[type="text"] {
+                  margin-left: 138px;
+                  margin-top: 10px;
+                  margin-bottom: 20px;
+                  padding: 4px 9px;
+                  border-radius: 7px;
+                  outline-color: white;
+              }
+
+              input[type="email"] {
+               margin-bottom: 20px;
+               padding: 4px 9px;
+               border-radius: 8px;
+               margin-left: 138px;
+           }
+
+           input[type="submit"] {
+            background: white;
+            border: none;
+            display: inline-block;
+            font-weight: bolder;
+            padding: 7px;
+            border-radius: 7px;
+            margin-left: 213px;
+        }
+
+        textarea#taxt {
+         margin-left: 106px;
+     }
